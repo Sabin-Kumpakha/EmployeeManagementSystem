@@ -5,9 +5,6 @@ public class Employee {
     private String department;
     private double salary;
 
-    public Employee() {
-    }
-
     public Employee(String name, int age, String department, double salary) {
         this.name = name;
         this.age = age;

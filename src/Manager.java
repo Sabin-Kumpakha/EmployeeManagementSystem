@@ -19,6 +19,7 @@ public class Manager extends Employee {
         return getSalary() + bonus;
     }
 
+    @Override
     public void displayEmployeeInfo(){
         super.displayEmployeeInfo();
         System.out.println("Bonus :: " + bonus);
