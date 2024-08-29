@@ -18,7 +18,6 @@ public class EmployeeTest {
         employee.raiseSalary(10);
         manager.raiseSalary(10);
 
-        // Display updated information of both Employee and Manager after salary raise
         System.out.println("***** Employee and Manager Information After Salary Raise *****\n");
         System.out.println("Employee Information");
         employee.displayEmployeeInfo();
